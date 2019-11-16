@@ -1,0 +1,106 @@
+@import url('');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+	background-color: #eee;
+}
+
+.main{
+	background-color: #fff;
+	width: 95%;
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+}
+
+.item{
+	max-height: 265px;
+	max-width: 490px;
+	height: calc(95vw / 2 / 16 * 9);
+	width:  calc(90vw - 10px);
+	background-color: #CECECE;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.img-1{
+	background-image: url('https://source.unsplash.com/1280x720/?city');
+}
+
+.img-2{
+	background-image: url('https://source.unsplash.com/1280x720/?street');
+}
+
+.img-3{
+	background-image: url('https://source.unsplash.com/1280x720/?new york');
+}
+
+.img-4{
+	background-image: url('https://source.unsplash.com/1280x720/?london');
+}
+
+.img-5{
+	background-image: url('https://source.unsplash.com/1280x720/?chicago');
+}
+
+.img-6{
+	background-image: url('https://source.unsplash.com/1280x720/?paris');
+}
+
+.img-7{
+	background-image: url('https://source.unsplash.com/1280x720/?moscow');
+}
+
+.img-8{
+	background-image: url('https://source.unsplash.com/1280x720/?sydney');
+}
+
+.img-9{
+	background-image: url('https://source.unsplash.com/1280x720/?berlin');
+}
+
+.img-10{
+	background-image: url('https://source.unsplash.com/1280x720/?saint-petersburg');
+}
+
+.img-11{
+	background-image: url('https://source.unsplash.com/1280x720/?tokio');
+}
+
+.img-12{
+	background-image: url('https://source.unsplash.com/1280x720/?seoul');
+}
+
+.heading{
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0;
+	font-family: 'Lobster', cursive;
+}
+
+.img-link{
+	display: block;
+	opacity: 0.9;
+	transition: 0.4s ease, transform 0.2s ease-in, box-shadow 0.3s ease-out;
+	margin: 5px;
+}
+
+.img-link:hover{
+	opacity: 1;
+	transform: scale(1.2) rotate(5deg);
+	z-index: 10;
+	box-shadow: 0 0 200px 30px rgba(0, 0, 0, 0.6);
+	filter: brightness(90%);
+}
+
